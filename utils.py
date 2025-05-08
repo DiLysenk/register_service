@@ -35,6 +35,7 @@ def get_git_repository_info() -> str:
     return remote
 
 
+
 def create_project() -> None:
     print("Creating project")
     check_git_repository()
