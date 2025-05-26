@@ -17,3 +17,4 @@ def generate_api(package_name: str, swagger_url: str, templates: str = None) -> 
 
 generate_api(package_name='register_service',
              swagger_url='http://5.63.153.31:8085/register/openapi.json',)
+
