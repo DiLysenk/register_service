@@ -50,7 +50,7 @@ def create_project() -> None:
         "repository": remote,
     }
     cookiecutter(
-        template="/Users/vmenshikov/PycharmProjects/template",
+        template="/Users/lysenkodmitry/PycharmProjects/template",
         no_input=True,
         overwrite_if_exists=True,
         output_dir=parent_dir,
